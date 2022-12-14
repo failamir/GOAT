@@ -1,6 +1,6 @@
 import pathlib
 from pathlib import Path
-from fastai.vision.widgets import *
+
 from fastai.vision.all import *
 from fastai.vision.widgets import *
 import streamlit as st
