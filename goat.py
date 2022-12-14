@@ -1,10 +1,9 @@
 import pathlib
 from pathlib import Path
-import fastbook
-fastbook.setup_book()
-import streamlit as st
+from fastai.vision.widgets import *
 from fastai.vision.all import *
 from fastai.vision.widgets import *
+import streamlit as st
 from PIL import Image
 
 temp = pathlib.PosixPath
