@@ -1,6 +1,6 @@
 import pathlib
 from pathlib import Path
-!pip install fastai==2.2.5
+pip install fastai==2.2.5
 import fastbook
 fastbook.setup_book()
 import streamlit as st
